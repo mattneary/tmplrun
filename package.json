@@ -1,0 +1,14 @@
+{
+  "name": "tmplrun",
+  "author": "Matt Neary",
+  "version": "0.0.0",
+  "description": "executable templates with a shebang",
+  "main": "tmplrun",
+  "scripts": {
+    "prepublish": "make"
+  },
+  "bin": {
+    "tmplrun": "tmplrun"
+  },
+  "license": "MIT"
+}
