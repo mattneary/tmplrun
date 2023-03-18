@@ -6,11 +6,11 @@ To me, bash and LLMs have a natural affinity:
 2. They both deal with lots of unstructured text.
 3. And they both make words feel magic.
 
-So recently I've been working with OpenAI's LLM APIs from bash a lot.
+So recently I've been working with OpenAI's LLM APIs from bash a lot. When I
+started working on projects this way, I quickly switched from static, one-off
+prompts to **prompt templates**.
 
-When I started working on projects this way, I quickly switched from static, one-off prompts to **prompt templates**.
-
-So, naturally, I've been thinking about the ideal pattern for **prompt templates** in *bash*... 💬🏃
+Naturally, I've been thinking about the ideal pattern for **prompt templates** in *bash*... 💬🏃
 
 ## Introduction
 
@@ -39,3 +39,6 @@ To get started, install `tmplrun` as a global module using npm:
 ```sh
 $ npm i -g tmplrun
 ```
+
+Then, just use it in the shebang of template files to turn them into
+executables.
