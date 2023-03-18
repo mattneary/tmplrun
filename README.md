@@ -30,8 +30,7 @@ $ tone=happy ./poem.tmpl "Open Source Software"
 Write a poem about Open Source Software. The tone should be happy.
 ```
 
-> **Note**
-> Don't forget to make your template executable (`chmod +x poem.tmpl`)
+**Note**: Don't forget to make your template executable (`chmod +x poem.tmpl`)
 
 ## Installation
 
